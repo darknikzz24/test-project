@@ -12,5 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     setps:
+      - name: Setup Actions
+        uses: actions/checkout@v3
+        
       - name: Wish Me
         run: echo "Hii Nikhil"
