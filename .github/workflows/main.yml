@@ -1,0 +1,16 @@
+name: New Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    name: test wokflow
+    runs-on: ubuntu-latest
+
+    setps:
+      - name: Wish Me
+        run: echo "Hii Nikhil"
