@@ -11,9 +11,9 @@ jobs:
     name: test wokflow
     runs-on: ubuntu-latest
 
-    setps:
+    steps:
       - name: Setup Actions
         uses: actions/checkout@v3
-        
+
       - name: Wish Me
         run: echo "Hii Nikhil"
